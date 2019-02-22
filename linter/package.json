@@ -1,0 +1,14 @@
+{
+  "name": "eslint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ignore-path ../.eslintignore --ignore-pattern ignoresrc --ignore-pattern ignoretoo ../"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.14.1"
+  }
+}
